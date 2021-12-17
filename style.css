@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+:root{
+    --white: white;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Ubuntu&display=swap');
+
+body{
+    background: linear-gradient(rgba(0,0,0,0.200),rgba(0,0,0,0.200)), url("https://wallpaperaccess.com/full/2864921.jpg") no-repeat center center fixed;
+    background-size: cover;
+    color: var(--white);
+}
+
+section .container #heading{
+    height: 610px;
+    padding: 100px 0px;
+    font-family: 'Patrick Hand', cursive;
+}
+
+/* Login */
+.box{
+    font-family: 'Patrick Hand', cursive;
+    color: black;
+    width: 400px;
+    margin: 90px auto;
+    padding: 50px 10px 150px;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0.250);
+}
+
+.box h2{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+.box input{
+    box-sizing: border-box;
+    padding: 10px;
+    display: block;
+    margin: 20px auto;
+    width: 70%;
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+    font-size: 15px;
+}
+.box input::placeholder{
+    color: white;
+}
+.box button{
+    display: block;
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.781);
+    color: black;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: .3s;
+    margin-bottom: 10px;
+}
+.box button:hover{
+    background: rgba(255, 0, 0, 0.507);
+    color: white;
+
+}
